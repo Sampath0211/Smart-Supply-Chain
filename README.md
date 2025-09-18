@@ -1,18 +1,18 @@
-# Salesforce DX Project: Next Steps
+Smart Supply Chain & Inventory Tracking System
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+The Smart Supply Chain & Inventory Tracking System is a Salesforce-based solution designed to streamline inventory, order, and shipment management for businesses. Traditional supply chain operations face challenges such as stockouts, overstocking, delayed shipments, and lack of real-time visibility, which lead to inefficiencies and customer dissatisfaction.
 
-## How Do You Plan to Deploy Your Changes?
+This project leverages Salesforce CRM capabilities (Admin + Developer) to build a centralized system where:
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+Products, warehouses, and inventory are tracked in real time.
 
-## Configure Your Salesforce DX Project
+Orders automatically reduce inventory, with low-stock alerts triggering reorder requests.
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+Suppliers are notified instantly, and delivery agents can update shipment statuses.
 
-## Read All About It
+Dashboards and reports provide warehouse managers with complete visibility into operations.
 
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+Automation, Apex triggers, Lightning Web Components (LWC), and integrations ensure smooth workflows and secure role-based access.
+
+
+The solution is lightweight, customizable, and scalable—making it ideal for small to medium businesses seeking a smart alternative to costly ERP systems.

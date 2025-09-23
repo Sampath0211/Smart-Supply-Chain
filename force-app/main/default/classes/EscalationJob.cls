@@ -7,7 +7,7 @@ global class EscalationJob implements Schedulable {
             AND CreatedDate < :System.now().addDays(-7)
         ];
         for (Shipment__c sh : delayed) {
-            sh.OwnerId = '005XXXXXXXXAdmin'; // Replace with Admin User Id
+            sh.OwnerId = '005XXXXXXXXAdmin';
         }
         if (!delayed.isEmpty()) {
             update delayed;
